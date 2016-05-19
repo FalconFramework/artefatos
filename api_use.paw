@@ -84,7 +84,7 @@
         <attribute name="name" type="string">Post Aluno</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM"></relationship>
         <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
-        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z108 z106"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z106 z108"></relationship>
     </object>
     <object type="LMENVIRONMENTVARIABLEVALUE" id="z104">
         <attribute name="value" type="string"></attribute>
