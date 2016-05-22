@@ -72,7 +72,7 @@
     </object>
     <object type="LMREQUEST" id="z103">
         <attribute name="uuid" type="string">A1CD6D21-B465-4180-8B78-57C27C2B7780</attribute>
-        <attribute name="url" type="string">localhost:3000/</attribute>
+        <attribute name="url" type="string">localhost:3000/users</attribute>
         <attribute name="storecookies" type="bool">1</attribute>
         <attribute name="sendcookies" type="bool">1</attribute>
         <attribute name="redirectmethod" type="bool">0</attribute>
@@ -84,7 +84,7 @@
         <attribute name="name" type="string">Post Aluno</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM"></relationship>
         <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
-        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z106 z108"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z108 z106"></relationship>
     </object>
     <object type="LMENVIRONMENTVARIABLEVALUE" id="z104">
         <attribute name="value" type="string"></attribute>
@@ -93,7 +93,7 @@
     </object>
     <object type="LMREQUEST" id="z105">
         <attribute name="uuid" type="string">303522B8-5AF4-40AE-A71C-7ACED02DBD0C</attribute>
-        <attribute name="url" type="string">localhost:3000/alunos?where=name%20LIKE%20%22%25a%25%22\u2600offset=1\u2600limit=5\u2600order=id%20DESC</attribute>
+        <attribute name="url" type="string">localhost:3000/users</attribute>
         <attribute name="storecookies" type="bool">1</attribute>
         <attribute name="sendcookies" type="bool">1</attribute>
         <attribute name="redirectmethod" type="bool">0</attribute>
@@ -104,7 +104,7 @@
         <attribute name="name" type="string">Get Alunos</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM"></relationship>
         <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
-        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z109 z102"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z102 z109"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z106">
         <attribute name="value" type="string">name = casamento</attribute>
